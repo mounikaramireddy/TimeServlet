@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>timeservlet</servlet-name>
+		<servlet-class>com.servlet.ex.TimeServletEx</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>timeservlet</servlet-name>
+		<url-pattern>/time</url-pattern>
+	</servlet-mapping>
+</web-app>
